@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+</head>
+<body>
+    <a href="./class1.html"> Class 1</a>
+    <a href="./class2.html"> Class 2</a>
+    <a href="./class3.html"> Class 3</a>
+    <a href="./class4.html"> Class 4</a>
+    <a href="./class5.html"> Class 5</a>
+    
+    <!-- Inline CSS -->
+    <div style="background-color: crimson; width:100px; height: 100px;">
+        Div 1
+    </div>
+    <div class="boxBg">
+        Div 2
+    </div>
+    <div id="div3">
+        Div 3
+    </div>
+    <p> P1 </p>
+    <p class="boxBg"> P2 </p>
+    <p> P3 </p>
+
+    <!-- Embedded CSS -->
+    <style>
+        /*Tag Selector*/
+        div{
+            background-color: darkcyan;
+            width:150px;
+            height: 100px;
+            border: solid 2px greenyellow;
+        }
+        /* Universal Selector */
+        *{
+            margin-left: 50px;
+        }
+        /* Class Selector */
+        .boxBg{
+            border: dotted 5px chocolate;
+            width:100px;
+            height: 120px;
+            text-align: center;
+        }
+        /* ID Selector */
+        #div3{
+            transform: rotate(250deg);
+            background-color: indigo;
+        }
+        /* Psuedo Selector */
+        p:hover{
+            transform: rotate(120deg);
+        }
+    </style>
+
+    
+</body>
+</html>
